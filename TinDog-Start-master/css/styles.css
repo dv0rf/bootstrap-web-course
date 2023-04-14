@@ -1,0 +1,161 @@
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+#title {
+    background-color: #ff4c68;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    padding: 4.5%;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.img-iphone {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+.img-col{
+    position: relative;
+}
+
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.feature-fa {
+    color: #ef8172;
+}
+
+.feature-fa:hover {
+    color: #ff4c68;
+}
+
+.row h3 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.row p {
+    color: #8f8f8f;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-col {
+    padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+
+    .img-iphone{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* ----------- Call to action -----------  */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    position: relative;
+    padding: 7% 15%;
+}
+
+#cta h3{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 3%;
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+}
+
+#footer a{
+    text-decoration: none;
+    color: black
+}
